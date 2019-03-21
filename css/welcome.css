@@ -1,0 +1,63 @@
+#welcome {
+  padding-top: 130px;
+  height: auto;
+}
+
+#welcome img {
+  width: 100%;
+}
+
+#welcome-left {
+  padding: 3rem;
+}
+
+#welcome-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#welcome-right h3 {
+  font-weight: bold;
+  font-size: 2.8rem;
+}
+
+#welcome-right p {
+  color: #777777;
+  font-size: 0.95rem;
+  margin-top: 1.4rem !important;
+}
+
+#welcome-right button {
+  margin: 1.2rem auto;
+  width: 200px;
+  background-color: #FFB606;
+  color: rgba(37, 37, 37, 0.904);
+  border: 1px solid #FFB606;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  font-size: 0.95rem;
+  padding: 13px 30px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+#welcome-right button:hover {
+  background-color: #fff;
+  border: 1px solid #FFB606;
+}
+
+@media (max-width: 768px) {
+  #welcome-right {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=welcome.css.map */

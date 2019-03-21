@@ -1,0 +1,124 @@
+#menu {
+  margin-top: 5rem;
+  height: auto;
+  width: 100%;
+  background-image: url("https://colorlib.com/preview/theme/foodfun/assets/images/food-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+#menu h3 {
+  font-weight: bold;
+  font-size: 2.8rem;
+}
+
+#menu p {
+  color: #777777;
+  font-size: 0.95rem;
+  margin-top: 1.4rem !important;
+}
+
+#menu-grid {
+  max-width: 1200px;
+  margin: 3rem auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  grid-column-gap: 2rem;
+  grid-row-gap: 3rem;
+  z-index: 10;
+}
+
+.menu-item {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+  -webkit-box-shadow: 2px 10px 10px 1px rgba(51, 51, 51, 0.342);
+          box-shadow: 2px 10px 10px 1px rgba(51, 51, 51, 0.342);
+  cursor: pointer;
+}
+
+.menu-item:hover .menu-bottom {
+  background-color: #e0a606;
+}
+
+.menu-item:hover .menu-bottom span, .menu-item:hover .menu-bottom p {
+  color: #222 !important;
+}
+
+.menu-item:hover .menu-top img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.menu-top {
+  overflow: hidden;
+}
+
+.menu-top img {
+  width: 100%;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+.menu-bottom {
+  padding: 1rem;
+  background-color: rgba(245, 244, 244, 0.932);
+  position: relative;
+  -webkit-transition: all 0.35s ease-in;
+  transition: all 0.35s ease-in;
+}
+
+.menu-bottom p, .menu-bottom h2, .menu-bottom span {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.menu-bottom p:nth-child(1) {
+  color: black !important;
+  display: inline-block;
+  font-size: 1.4rem !important;
+  font-weight: bold;
+}
+
+.menu-bottom span {
+  position: absolute;
+  top: 35px;
+  right: 20px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+@media (max-width: 1292px) {
+  #menu {
+    background-image: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #menu-grid {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  #menu-h1 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 567px) {
+  #menu-grid {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  #menu {
+    padding: .6rem;
+  }
+}
+/*# sourceMappingURL=menu.css.map */

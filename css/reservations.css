@@ -1,0 +1,66 @@
+#reservation {
+  background-image: url("https://colorlib.com/preview/theme/foodfun/assets/images/reservation-bg.jpg");
+  height: 550px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#res-content {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+#res-content h1 {
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 2.6rem;
+}
+
+#res-content p {
+  margin-top: 15px;
+  font-size: 1.5rem;
+}
+
+#res-content button {
+  color: rgba(19, 18, 18, 0.911);
+  background-color: #d89f03;
+  border: 0;
+  padding: 12px 30px;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border: 1px solid #d89f03;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#res-content button:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #d89f03;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.2rem !important;
+  }
+}
+/*# sourceMappingURL=reservations.css.map */
